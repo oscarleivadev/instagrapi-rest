@@ -1,6 +1,12 @@
+# Core dependencies
+setuptools>=70.0.0
+
+# FastAPI y servidor
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
 python-multipart==0.0.17
+
+# Instagrapi
 instagrapi>=2.1.2
 requests==2.32.5
 aiofiles==24.1.0
